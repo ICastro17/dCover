@@ -566,5 +566,13 @@ namespace dCover.Forms
 
 			iconFlag = !iconFlag;
 		}
+
+        private void configurationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConfiguracoes form = new frmConfiguracoes();
+            form.StartPosition = FormStartPosition.CenterParent;
+            form.FormBorderStyle = FormBorderStyle.Sizable;
+            form.ShowDialog();
+        }
 	}
 }
