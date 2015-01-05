@@ -46,7 +46,7 @@
             // lblDirectory
             // 
             this.lblDirectory.AutoSize = true;
-            this.lblDirectory.Location = new System.Drawing.Point(14, 156);
+            this.lblDirectory.Location = new System.Drawing.Point(14, 154);
             this.lblDirectory.Name = "lblDirectory";
             this.lblDirectory.Size = new System.Drawing.Size(72, 13);
             this.lblDirectory.TabIndex = 30;
@@ -56,7 +56,7 @@
             // 
             this.txtDirectory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDirectory.Location = new System.Drawing.Point(17, 172);
+            this.txtDirectory.Location = new System.Drawing.Point(17, 170);
             this.txtDirectory.Name = "txtDirectory";
             this.txtDirectory.Size = new System.Drawing.Size(250, 20);
             this.txtDirectory.TabIndex = 29;
