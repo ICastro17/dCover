@@ -70,6 +70,7 @@
             this.btnCancel.TabIndex = 28;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSave
             // 
@@ -173,6 +174,7 @@
             this.Controls.Add(this.txtApplication);
             this.Controls.Add(this.lblParams);
             this.Controls.Add(this.txtParams);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmConfiguracoes";
             this.Text = "Configuration";

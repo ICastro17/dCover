@@ -571,7 +571,6 @@ namespace dCover.Forms
         {
             frmConfiguracoes form = new frmConfiguracoes();
             form.StartPosition = FormStartPosition.CenterParent;
-            form.FormBorderStyle = FormBorderStyle.Sizable;
             form.ShowDialog();
         }
 	}
